@@ -1,3 +1,4 @@
+/* The only writing on the whole page that was not white was the footer at the bottom. So designating the color here removed it from most sections of the css. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -74,7 +75,7 @@ h1 {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* The three classes that were in the div all had the same requirements for what needed to be designed as did their respective images. It could all be defined in a single class rather then three different ones. */
 .optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,6 +93,7 @@ h2 {
     font-size: 36px;
 }
 
+/* Similar to above all of the sub-sections of benefits were doing the same design options and did not need to be seperate sections or defined classes for css. Grouping them together simplifies this. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
